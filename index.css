@@ -7,3 +7,7 @@ body {
   font-size: 64px;
   color: #E6bf00;
 }
+
+.summary-text, .summary-start-date, .summary-days, .summary-hours {
+  margin-top: 20px;
+}
