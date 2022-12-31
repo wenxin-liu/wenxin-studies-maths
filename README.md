@@ -1,7 +1,9 @@
 # wenxin studies maths
 
-This repository tracks my continuous maths streak in consecutive days. Each star represents one consecutive day in which I studied maths. 
+I am studying maths. 
 
-My streak started on 26/12/22 and the current consecutive number of days is published on the page:
+This repository tracks the number of consecutive days for which I've been studying maths. I update this repository daily.
+
+My streak started on 26/12/2022 and the current number of consecutive days is published on the page:
 
 https://wenxin-liu.github.io/wenxin-studies-maths
