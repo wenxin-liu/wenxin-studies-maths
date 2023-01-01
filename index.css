@@ -3,6 +3,10 @@ body {
   font-size: 20px;
 }
 
+li {
+  margin: 12px 0;
+}
+
 .progress {
   font-size: 80px;
   color: #E6bf00;
