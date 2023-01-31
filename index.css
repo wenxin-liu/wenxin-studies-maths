@@ -15,6 +15,11 @@ td {
   padding: 0 6px 20px 0;
 }
 
+.certificate {
+  display: block;
+  margin: 12px 0;
+}
+
 .progress {
   font-size: 80px;
   color: #E6bf00;
