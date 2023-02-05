@@ -12,6 +12,42 @@
 </head>
 
 <body>
+  <div id="demo">
+
+  </div>
+
+  <script>
+    fetch('https://gist.githubusercontent.com/wenxin-liu/519d62a3e60c34ce37f6a9a9f56c23a3/raw/c8cc1d98f06cd3747d98c28521d7a6fd863950bc/data.json')
+    .then((response) => response.json())
+    .then((json) => {
+      console.log(json);
+
+      var test = {
+        "progress": {
+          "date": "2023-01-01",
+          "subject": "linear algebra",
+          "duration": "1 hour 30 minutes"
+        }
+      };
+
+      const {
+        name,
+        location
+      } = json;
+
+      console.log(test.progress);
+
+
+      // test.progress.forEach((item, i) => {console.log(item)};
+
+      document.getElementById("demo").innerHTML = name;
+    });
+
+
+  </script>
+
+
+
   <div class="progress">
     <span title="26/12/22 ~8 hours on linear algebra">&#9733;</span>
     <span title="27/12/22 ~8 hours on linear algebra">&#9733;</span>
